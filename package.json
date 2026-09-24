@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-frinkiac",
-  "version": "0.1.0",
-  "description": "Quote-based screencap search for Simpsons, Futurama, Rick and Morty",
+  "version": "0.1.1",
+  "description": "Frinkiac + Morbotron + Master of All Science MCP.",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-frinkiac": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "frinkiac"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-frinkiac"
+    "url": "git+https://github.com/pipeworx-io/mcp-frinkiac.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-b0692229b82b7faa76f7c7c65c494bc235fa0a7ba4d5e7754f27c317f055850f",
+    "sourceCommit": "76aa8f5d9b5dc2f665563030647c68e661478864"
   }
 }

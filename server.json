@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.pipeworx-io/frinkiac",
   "title": "Frinkiac",
-  "description": "Quote-based screencap search for Simpsons, Futurama, Rick and Morty",
-  "version": "0.1.0",
+  "description": "Frinkiac + Morbotron + Master of All Science MCP.",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/frinkiac",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-frinkiac",
